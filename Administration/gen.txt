@@ -1,0 +1,13 @@
+// Config file: mongodb.conf
+// Testing/Diagnostics set quiet to false
+
+// Status of replica
+rs.Status() // watch optimeDate and time diff between primary and secondary
+
+// Sharding distribution
+db.printShardingStatus() // sh.status()
+
+// Locks
+use config
+db.locks.find() // balancer: db.locks.find( {_id: "balancer"} )
+
