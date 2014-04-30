@@ -1,4 +1,4 @@
-// Config file: mongodb.conf
+// Config file: mongodb.conf (create)
 // Testing/Diagnostics set quiet to false
 
 // Status of replica
