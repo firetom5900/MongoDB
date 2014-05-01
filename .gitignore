@@ -4,3 +4,6 @@ pricing_v10.txt
 pricinganalysis.txt
 shortlongs.txt
 sqlserverbaks.txt
+MongoImport.ps1
+MongoQuery.ps1
+MongoMaintenance.ps1
