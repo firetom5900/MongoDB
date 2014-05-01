@@ -7,3 +7,5 @@ sqlserverbaks.txt
 MongoImport.ps1
 MongoQuery.ps1
 MongoMaintenance.ps1
+bck.ps1
+Lc\*
