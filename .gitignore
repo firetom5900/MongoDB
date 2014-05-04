@@ -1,3 +1,4 @@
+!.gitignore
 init.txt
 initv2.txt
 pricing_v10.txt
@@ -8,4 +9,5 @@ MongoImport.ps1
 MongoQuery.ps1
 MongoMaintenance.ps1
 bck.ps1
-Lc\*
+Nah/*
+!Nah/only.txt
