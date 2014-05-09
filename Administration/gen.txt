@@ -11,3 +11,5 @@ db.printShardingStatus() // sh.status()
 use config
 db.locks.find() // balancer: db.locks.find( {_id: "balancer"} )
 
+// Dump
+mongodump --db DB
