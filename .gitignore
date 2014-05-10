@@ -11,3 +11,6 @@ MongoMaintenance.ps1
 bck.ps1
 Nah/*
 !Nah/only.txt
+*.exe
+Form1.cs
+*.manifest
