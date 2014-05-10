@@ -1,0 +1,7 @@
+C:\Users\Timothy Smith\Documents\Installer\MongoStart\MongoStart\bin\Debug\MongoStart.exe
+C:\Users\Timothy Smith\Documents\Installer\MongoStart\MongoStart\bin\Debug\MongoStart.pdb
+C:\Users\Timothy Smith\Documents\Installer\MongoStart\MongoStart\obj\x86\Debug\MongoStart.Form1.resources
+C:\Users\Timothy Smith\Documents\Installer\MongoStart\MongoStart\obj\x86\Debug\MongoStart.Properties.Resources.resources
+C:\Users\Timothy Smith\Documents\Installer\MongoStart\MongoStart\obj\x86\Debug\MongoStart.csproj.GenerateResource.Cache
+C:\Users\Timothy Smith\Documents\Installer\MongoStart\MongoStart\obj\x86\Debug\MongoStart.exe
+C:\Users\Timothy Smith\Documents\Installer\MongoStart\MongoStart\obj\x86\Debug\MongoStart.pdb
