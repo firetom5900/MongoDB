@@ -7,9 +7,8 @@ def html_headertitle(title):
 
 # Home
 @bottle.route('/')
-def default():
-	body = ""
-	return html_headertitle("My Title") + body + html_end
+def default(body):
+	return html_headertitle("Default Page") + body + html_end
 
 #Pages
 @bottle.route('/page')
