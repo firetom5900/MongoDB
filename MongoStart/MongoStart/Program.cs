@@ -7,6 +7,7 @@ namespace MongoStart
 {
     static class Program
     {
+        /// class connection, migrate - .ignore
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
