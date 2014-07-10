@@ -7,7 +7,7 @@ Function AddHabitBackup ($db, $c)
 
     $mongodb = [MongoDB.Driver.MongoDatabase]::Create('mongodb://Timothy/' + $db +'?safe=true')
 
-    $collection = $mongodb[$c]
+    $cln = $mongodb[$c]
     #[MongoDB.Bson.BsonDocument] $insertvalue = @{ "_id" = "new ISODate()"; "Completed"= $completed; "Progress"= $progress;}
-    $collection.Insert($insertvalue)
+    $cln.Insert($insertvalue) | Out-Null
 }
