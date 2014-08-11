@@ -10,6 +10,7 @@ Function AddMongoConfig ($mongopath)
     }
 
     $options = "## MongoDB Configuration File" + $nl
+    $options = "## Test/Diag quiet false" + $nl
     $options += "logpath=config\mongodb.log" + $nl
     $options += "profile=2" + $nl
     $options += "slowms=25" + $nl
