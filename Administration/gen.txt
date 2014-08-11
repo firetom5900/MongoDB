@@ -1,11 +1,11 @@
-// Config file: mongodb.conf (create)
-// Testing/Diagnostics set quiet to false
+// Config file: mongodb.conf (see PS)
 
 // Status of replica
 rs.Status() // watch optimeDate and time diff between primary and secondary
 
 // Sharding distribution
-db.printShardingStatus() // sh.status()
+db.printShardingStatus() 
+// sh.status()
 
 // Locks
 use config
