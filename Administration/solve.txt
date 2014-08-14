@@ -4,7 +4,8 @@ Connection Logging
 
 
 
-Helpful for growth (PowerShell):
+Helpful for growth (PowerShell) - See Gist:
 $compsys = Get-WmiObject -Class Win32_ComputerSystem
-$RAM = $compsys.TotalPhysicalMemory/(1024*1024*1024)
-$RAM
+$op = Get-WmiObject -Class Win32_OperatingSystem 
+$avlRAM = $compsys.TotalPhysicalMemory/(1024*1024*1024)
+$freeRAM = $op.FreePhysicalMemory/(1024*1024)
