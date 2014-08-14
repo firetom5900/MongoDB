@@ -1,3 +1,10 @@
 Connection Logging
 -  See Gist
 -  In addition see db\journal
+
+
+
+Helpful for growth (PowerShell):
+$compsys = Get-WmiObject -Class Win32_ComputerSystem
+$RAM = $compsys.TotalPhysicalMemory/(1024*1024*1024)
+$RAM
