@@ -9,3 +9,8 @@ $compsys = Get-WmiObject -Class Win32_ComputerSystem
 $op = Get-WmiObject -Class Win32_OperatingSystem 
 $avlRAM = $compsys.TotalPhysicalMemory/(1024*1024*1024)
 $freeRAM = $op.FreePhysicalMemory/(1024*1024)
+
+
+Mongod Issues:
+Get-EventLog -LogName Application -Newest 100  ## General
+Get-EventLog -LogName Application -Newest 100 | Where-Object {$_.Source -notlike "*EXPRES*"} ## Save
