@@ -13,4 +13,5 @@ $freeRAM = $op.FreePhysicalMemory/(1024*1024)
 
 Mongod Issues:
 Get-EventLog -LogName Application -Newest 100  ## General
+Get-EventLog -LogName Security -Newest 100  ## Important - Review
 Get-EventLog -LogName Application -Newest 100 | Where-Object {$_.Source -notlike "*EXPRES*"} ## Save
