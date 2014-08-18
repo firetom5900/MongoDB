@@ -1,0 +1,10 @@
+
+## var/log/
+
+tail -f /var/log/syslog
+
+file /sbin/init
+
+## MDB
+
+mongod\bin\mongod
