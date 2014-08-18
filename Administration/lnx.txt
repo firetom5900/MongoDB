@@ -11,3 +11,6 @@ sudo mongod\bin\mongod
 
 ## mongod address already in use for socket 0.0.0.0.27017
 sudo service mongodb stop
+
+Win-Local
+subst Z: D:\Shared
