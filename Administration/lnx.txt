@@ -16,3 +16,5 @@ sudo chkconfig mongod on
 
 Win-Local
 subst Z: D:\Shared
+
+vmstat -s
