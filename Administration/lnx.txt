@@ -17,4 +17,7 @@ sudo chkconfig mongod on
 Win-Local
 subst Z: D:\Shared
 
+sudo get-apt install htop
+
 vmstat -s
+htop
