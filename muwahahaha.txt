@@ -1,0 +1,16 @@
+
+SELECT COLUMN_NAME
+	, DATA_TYPE
+	, CASE
+		WHEN DATA_TYPE IN ('bigint','int','smallint','decimal','float','numeric','bit') 
+			THEN '"' + COLUMN_NAME + '":'' + $' + COLUMN_NAME + ' + '','
+		WHEN DATA_TYPE IN ('char','varchar')
+			THEN '"' + COLUMN_NAME + '": "'' + $' + COLUMN_NAME + ' + ''",' 
+		END AS Script
+	--, '$' + COLUMN_NAME + ' = ' + '$sqlread["' + COLUMN_NAME + '"]'
+FROM FusionProjections.INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'TableOne'
+
+
+SELECT TOP 1 *
+FROM TableOne
